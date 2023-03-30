@@ -1,0 +1,185 @@
+@font-face{
+    font-family: "Montserrat-Medium";
+    src: url(./Font/Montserrat-Medium.ttf);
+}
+
+@font-face{
+    font-family: "Montserrat-Bold";
+    src: url(./Font/Montserrat-Bold.ttf);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.CoverPhoto{
+    background-image: url(./Photo/CoverPhoto.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+}
+
+#ParentDiv1{
+    height: auto;
+    width: auto;
+    position: absolute;
+    top: 228px;
+    left: 166px;
+}
+
+#ChildDiv1{
+    width: 480px;
+    height: auto;
+    color: #252B42;
+    font-family: "Montserrat-Bold";
+    font-size: 58px;
+    font-weight: 800;
+    line-height: 80px;
+}
+
+#ChildDiv2{
+    height: 60px;
+    width: 539px;
+    margin-top: 35px;
+    color: #737373;
+    font-family: "Montserrat-Medium";
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+    letter-spacing: 0.20000000298023224px;
+    text-align: left;
+}
+
+#btn1{
+    height: 48px;
+    width: 185px;
+    margin-left: 0px;
+    margin-top: 45px;
+    background: rgba(0, 160, 193, 1);
+    border-radius: 37px;
+    border-style: none;
+    font-family: "Montserrat-Medium";
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: 0.20000000298023224px;
+    text-align: center;
+    color: #FFFFFF;
+}
+#btn2{
+    height: 28px;
+    width: 82px;
+    margin-top: 45px;
+    margin-left: 5px;
+    border-radius: 37px;
+    width: 165px;
+    height: 48px;
+    background: none;
+    border: 1px solid  rgba(0, 160, 193, 1);
+    font-family: "Montserrat-Medium";
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 28px;
+    text-align: center;
+    color: #00A0C1;
+    
+}
+
+* {
+    box-sizing: border-box;
+}
+
+#form{
+    background: rgba(255, 255, 255, 1);
+    height: 590px;
+    width: 328px;
+    margin-top: 110px;
+    margin-left: 891px;
+    border-radius: 10px;
+    padding: 40px;
+}
+
+
+
+#Book_Appointment{
+    margin-top: 0px;
+    font-family: "Montserrat-Bold";
+    font-size: 24px;
+    font-weight: 700;
+    text-align: center;
+    color: #252B42;
+    margin-bottom: 30px;
+}
+
+#Lable_Title{
+    color: rgba(37, 43, 66, 1);
+    font-family: "Montserrat-Bold";
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 24px;
+    }
+
+.Inputs{
+    background:rgba(249, 249, 249, 1);
+    margin-top: 10px;
+    height: 50px;
+    width: 245px;
+    border-radius: 5px;
+    border-style: none;
+    border: 1px solid rgba(189, 189, 189, 1);
+    font-family: "Montserrat-Medium";
+    color:  rgba(115, 115, 115, 1);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 28px;
+    padding-left: 21px;
+    padding-top: 11px;
+    padding-bottom: 11px;
+    margin-bottom: 12px;  
+}
+
+#department_time{
+    background:rgba(249, 249, 249, 1);
+    margin-top: 10px;
+    height: 50px;
+    width: 248px;
+    border-radius: 5px;
+    border-style: none;
+    border: 1px solid rgba(189, 189, 189, 1);
+    padding-left: 21px;
+    padding-top: 11px;
+    padding-bottom: 11px; 
+    font-family: "Montserrat-Medium";
+    color:  rgba(115, 115, 115, 1);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 28px;
+    margin-bottom: 12px;
+}
+
+
+#options{
+    font-family: "Montserrat-Medium";
+    color:  rgba(115, 115, 115, 1);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+#button3{
+    background: rgba(255, 166, 43, 1);
+    margin-top: 18px;
+    height: 58px;
+    width: 248px;
+    border-radius: 5px;
+    border-style: none;
+    font-family: "Montserrat-Bold";
+    color: #FFFFFF;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 28px;
+    text-align: center;}
+
+    
